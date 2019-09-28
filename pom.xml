@@ -24,6 +24,7 @@
 		</dependency>
 	</dependencies>
 
+	<!--distrubutionManagement-->
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
