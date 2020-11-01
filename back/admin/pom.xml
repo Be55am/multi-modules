@@ -21,6 +21,16 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.goldminds</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.goldminds</groupId>
+      <artifactId>oauth-security</artifactId>
+      <version>1.0.2-SNAPSHOT</version>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
