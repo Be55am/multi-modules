@@ -1,0 +1,16 @@
+spring:
+
+  #OAuth2 Security Config
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1085430436297-aek76k6i2efqruld7o11rjij9ibrvl19.apps.googleusercontent.com
+            client-secret: VMzz1IBMx3ab5nNdsV2UfliK
+
+
+# Specifying the loggin level
+logging:
+  level:
+    org.springframework.web.client.RestTemplate: DEBUG
