@@ -11,6 +11,7 @@
     <artifactId>oauth-security</artifactId>
     <version>1.0.2-SNAPSHOT</version>
     <name>oauth-security</name>
+    <packaging>pom</packaging>
 
 
     <dependencies>
