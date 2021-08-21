@@ -31,25 +31,25 @@
         </dependency>
     </dependencies>
 
-    <!-- we are using this to only download the dependencies from nexus   -->
-    <repositories>
-        <repository>
-            <id>goldminds-group</id>
-            <url>http://54.225.61.223:8081/repository/goldminds-group/</url>
-        </repository>
-    </repositories>
-    <!--distrubutionManagement-->
+    <!-- we are using this to only download the dependencies from nexus uncomment this to use it   -->
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>goldminds-group</id>-->
+<!--            <url>http://54.225.61.223:8081/repository/goldminds-group/</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
+<!--    &lt;!&ndash;distrubutionManagement&ndash;&gt;-->
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>goldminds-snapshot</id>
-            <url>http://54.225.61.223:8081/repository/goldminds-snapshot/</url>
-        </snapshotRepository>
-        <repository>
-            <id>goldminds-release</id>
-            <url>http://54.225.61.223:8081/repository/goldminds-release/</url>
-        </repository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <snapshotRepository>-->
+<!--            <id>goldminds-snapshot</id>-->
+<!--            <url>http://54.225.61.223:8081/repository/goldminds-snapshot/</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--            <id>goldminds-release</id>-->
+<!--            <url>http://54.225.61.223:8081/repository/goldminds-release/</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
